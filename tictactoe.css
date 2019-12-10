@@ -1,0 +1,130 @@
+* 
+
+body { background: #9cb8b3; }
+
+h1 {
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    position: relative;
+    top: 2%;
+    width: 100%;
+}
+
+h2 {
+  font: 600 1.5em/1 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: .5em;
+  position: relative;
+  top: 2%;
+  width: 100%;
+}
+
+p {
+  font: 600 1.5em/1 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  position: relative;
+  top: 75%;
+  width: 100%;
+}
+
+span, span:after {
+    font-weight: 900;
+    color: #99f8b6;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .1em;
+    padding: .2em 0 .25em 0;
+}
+
+span {
+    font-size: 4em;
+    z-index: 100;
+    text-shadow: .05em .05em .05em #616b69;
+}
+
+
+/*break*/
+background {
+  background-color: rgb(129, 129, 129);
+}
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+select {
+  padding: 3px;
+  margin: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  background: #7FFFD4;
+  color: #5F9EA0;
+  border: none;
+  outline: none;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  width: 55px;
+}
+
+button {
+  inset;
+  background: #E6E6FA;
+  color: #9370DB;
+  border: none;
+  outline: none;
+  display: inline;
+}
+.minContainer {
+  padding: 20px;
+  padding-right: 30px;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 0;
+  width: 250px;
+  height: 250px;
+  margin-right: 5px;
+}
+.td {
+  border: 1px dotted #00008B;
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  line-height: 1.428571429;
+  width: 30px;
+  height: 30px;
+  min-width: 32px;
+  max-width: 302px;
+  min-height: 32px;
+  max-height: 32px;
+  text-align: center;
+}
+
+.X {
+  background-color: #ff8362;
+}
+
+.O {
+  background-color: #7FFFD4;
+}
+
